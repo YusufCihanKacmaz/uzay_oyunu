@@ -1,7 +1,6 @@
-
 from itertools import islice,takewhile
-from akis import fibonacci,yakit_gostergesi,satirlari_oku,ayristir,uzun_yolculuklar,rota_sayaci
-from istatistik import buyuk_harf_map,coklu_baglanti_filter,toplam_baglanti_reduce,hizli_yolculuk
+from uzay_oyunu.akis import fibonacci,yakit_gostergesi,satirlari_oku,ayristir,uzun_yolculuklar,rota_sayaci
+from uzay_oyunu.istatistik import buyuk_harf_map,coklu_baglanti_filter,toplam_baglanti_reduce,hizli_yolculuk
 #-----GÖREV 1 TEST------------------------------------------------------------------
 def test_fibonacci():
     g=fibonacci()
